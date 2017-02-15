@@ -9,6 +9,7 @@ Flask-AppFactory==0.2.1
 Flask-CeleryExt==0.2.2
 Flask-CLI==0.4.0
 Flask-Registry==0.2.0
+Flask-Script==2.0.5
 itsdangerous==0.24
 Jinja2==2.9.5
 kombu==3.0.37
@@ -16,5 +17,6 @@ MarkupSafe==0.23
 packaging==16.8
 pyparsing==2.1.10
 pytz==2016.10
+redis==2.10.5
 six==1.10.0
 Werkzeug==0.11.15
