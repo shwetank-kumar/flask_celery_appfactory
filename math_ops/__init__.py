@@ -2,7 +2,9 @@ from celery import Celery
 from flask import Flask
 from config import config, DevelopmentConfig
 
-celery = Celery(__name__, broker=DevelopmentConfig.CELERY_BROKER_URL)
+celery = Celery(__name__, broker=DevelopmentConfig.broker_url,
+                backend=DevelopmentConfig.result_backend)
+
 
 def create_app(config_name):
     app = Flask(__name__)
