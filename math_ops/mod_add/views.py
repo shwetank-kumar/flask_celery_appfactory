@@ -1,6 +1,5 @@
 from . import mod_add
 from .tasks import addition_task
-from celery.result import AsyncResult
 
 @mod_add.route('/')
 def welcome():
