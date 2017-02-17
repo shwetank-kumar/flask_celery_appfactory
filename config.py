@@ -4,7 +4,6 @@ class DevelopmentConfig():
     DEBUG = True
     broker_url = 'redis://localhost:6379/0'
     result_backend = 'redis://localhost:6379/0'
-    DATABASE_URL= 'postgresql://postgres:postgres@localhost/wordcount_dev'
 
     @staticmethod
     def init_app(app):
